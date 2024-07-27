@@ -1,0 +1,13 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.14"
+shared = { path = "../shared" }
+surrealdb = "1.5.4"
+bevy_octopus = { version = "0.3", "features" = ["serde_json", "bincode"]}
+serde = "1.0.204"
+bytes = "1"
+
